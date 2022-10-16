@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGMaker.Tools", "IGMaker.Tools\IGMaker.Tools.csproj", "{DA885DAE-F6C0-4F8C-B8EB-F1B48A100084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGMaker.Tools.CLI", "IGMaker.Tools.CLI\IGMaker.Tools.CLI.csproj", "{CBC7A688-63ED-4D1B-9133-B563DF8B1E9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA885DAE-F6C0-4F8C-B8EB-F1B48A100084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA885DAE-F6C0-4F8C-B8EB-F1B48A100084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA885DAE-F6C0-4F8C-B8EB-F1B48A100084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA885DAE-F6C0-4F8C-B8EB-F1B48A100084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC7A688-63ED-4D1B-9133-B563DF8B1E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC7A688-63ED-4D1B-9133-B563DF8B1E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC7A688-63ED-4D1B-9133-B563DF8B1E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC7A688-63ED-4D1B-9133-B563DF8B1E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A423A20-C205-41A2-84AB-7C7C01A5DE7A}
+	EndGlobalSection
+EndGlobal
