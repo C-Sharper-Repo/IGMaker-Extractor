@@ -23,17 +23,5 @@ namespace IGMaker.Tools
             }
             return string.Format(CultureInfo.InvariantCulture, $"{{0:n{decimals}}} {{1}}", adjustedSize, SIZE_SUFFIXES[mag]);
         }
-
-        public static void RemoveDuplicates<T>(this IList<T> list, Func<T, T, bool> predicate)
-        {
-            for (int i = list.Count - 1; i >= 0; i--)
-            {
-                var iT = list[i];
-                for (int j = i - 1; j >= 0; j--)
-                {
-                    if (predicate(iT, list[j])) { list.RemoveAt(i); break; }
-                }
-            }
-        }
     }
 }
